@@ -1,4 +1,4 @@
-[
+db.sales.aggregate[
     // unwind the items to flatten structure
   {
     $unwind: "$items"
